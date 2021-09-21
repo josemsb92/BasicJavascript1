@@ -1,1 +1,1 @@
-//Recover the prueba.js file
+//Pruebas
