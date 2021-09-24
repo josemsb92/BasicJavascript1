@@ -1,7 +1,7 @@
 // Print all prime numbers from 2 to a given number with a while loop.
 
-let prime = parseInt(prompt("Introduce a number")) + 1;
-let i = prime - 1;
+let prime = 8;
+let i = prime;
 
 while (i > 1) {
   let j = i - 1;
