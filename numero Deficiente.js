@@ -12,18 +12,15 @@ output: ES DEFICIENTE
 */
 
 const number = 24;
-let arrayDivider = [];
-let arraySum = 0;
+let sum = 0;
+
 for (i = 1; i < number - 1; i++) {
   if (number % i === 0) {
-    arrayDivider.push(i);
+    sum += i;
   }
 }
-for (j = 0; j < arrayDivider.length; j++) {
-  arraySum += arrayDivider[j];
-}
 
-if (arraySum >= number) {
+if (sum >= number) {
   console.log("No es deficiente");
 } else {
   console.log("Es deficiente");

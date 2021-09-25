@@ -2,15 +2,11 @@
 function fizzbuzzKata(number) {
   let multiplo3;
   let multiplo5;
-  
-  for (step = 0; step * 3 <= number; step++) {
+
+  for (step = 1; (step * 3) <= number; step++) {
     if (step * 3 == number) {
       multiplo3 = true;
-    }
-  }
-
-  for (step = 0; step * 5 <= number; step++) {
-    if (step * 5 == number) {
+    } else if (step * 5 == number) {
       multiplo5 = true;
     }
   }
@@ -24,4 +20,4 @@ function fizzbuzzKata(number) {
   }
 }
 
-fizzbuzzKata(9);
+fizzbuzzKata(15);
