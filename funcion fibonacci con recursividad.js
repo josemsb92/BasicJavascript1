@@ -6,14 +6,11 @@ function fibonacci(number, fibonacci1 = 0, fibonacci2 = 1) {
     return true;
   } else if (number < result) {
     return false;
-  }
+  }  
   return fibonacci(number, fibonacci2, result);
 }
-if (fibonacci(13)) {
-  console.log("Esta en FIbonacci");
-} else {
-  console.log("NO esta en fibonacci");
-}
+console.log(fibonacci(13));
+
 
 /* 
 //Metodo del Profesor
